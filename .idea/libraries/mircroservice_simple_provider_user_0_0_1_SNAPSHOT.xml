@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mircroservice-simple-provider-user-0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mircroservice-provider-user/target/mircroservice-simple-provider-user-0.0.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

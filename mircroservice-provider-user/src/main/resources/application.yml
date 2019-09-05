@@ -1,0 +1,36 @@
+server:
+  port: 9091
+eureka:
+  client:
+    #是否在自己注册到eureka
+    register-with-eureka: true
+    #是否从eureka server获取信息
+    fetch-registry: true
+    #与eureka server 交互的地址
+    service-url:
+       defaultZone: http://localhost:9091/eureka/
+  instance:
+    prefer-ip-address: true
+spring:
+  jpa:
+    generate-ddl: false
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/
+    username: root
+    password: shenxuan52142
+    maxActive: 20
+    initialSize: 1
+    maxWait: 6000
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+  application:
+    name: mircroservice-provider-user
+  profiles: peer1
+info:
+  app:
+    name: @project.artifactId@
