@@ -7,11 +7,11 @@ spring:
       server:
         git:
           uri: https://github.com/shenxuan52142/iiiicloud.git
-          username: shenxuan52142
+          username: shenxuan1hao@163.com
           password: 199351sx
           force-pull: true
           default-label: master
-          skip-ssl-validation: true
+          search-paths: /eureka
 eureka:
   client:
     register-with-eureka: false
