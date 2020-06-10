@@ -6,13 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mircroservice-provider-user" />
-        <module name="mircroservice-simple-provider-user" />
+        <module name="eureka" />
+        <module name="shenxuan-1" />
+      </profile>
+      <profile name="Annotation profile for mircroservice-simple-provider-user" enabled="true">
+        <sourceOutputDir name="../mircroservice-simple-provider-user/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../mircroservice-simple-provider-user/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shenxuan-2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="mircroservice-provider-user" target="1.8" />
-      <module name="mircroservice-simple-provider-user" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="shenxuan-1" target="1.8" />
+      <module name="shenxuan-2" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka" options="-parameters" />
+      <module name="shenxuan-1" options="-parameters" />
+      <module name="shenxuan-2" options="-parameters" />
+    </option>
   </component>
 </project>

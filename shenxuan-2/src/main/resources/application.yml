@@ -29,7 +29,7 @@ spring:
     poolPreparedStatements: true
     maxPoolPreparedStatementPerConnectionSize: 20
   application:
-    name: cehiyihao
+    name: shenxuan-2
 info:
   app:
     name: @project.artifactId@

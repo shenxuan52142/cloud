@@ -29,7 +29,7 @@ spring:
     poolPreparedStatements: true
     maxPoolPreparedStatementPerConnectionSize: 20
   application:
-    name: mircroservice-provider-user
+    name: shenxuan-1
   profiles: peer1
 info:
   app:
