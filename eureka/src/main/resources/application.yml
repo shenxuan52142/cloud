@@ -13,5 +13,5 @@ spring:
           password: 199351sx
           force-pull: true
           default-label: master
-          search-paths: /configTest/**
+          search-paths: configTest
 

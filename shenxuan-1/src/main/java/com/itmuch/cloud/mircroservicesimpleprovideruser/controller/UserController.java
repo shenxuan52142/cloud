@@ -15,7 +15,7 @@ public class UserController {
     @Value("${profile}")
     private String name;
     @GetMapping("/{getName}")
-    public String findById(@PathVariable Long id){
+    public String findById(){
         return name;
     }
 }
