@@ -8,7 +8,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
-@EnableFeignClients
 public class MircroserviceSimpleProviderUserApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(MircroserviceSimpleProviderUserApplication.class, args);
