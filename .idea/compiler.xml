@@ -8,11 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka" />
         <module name="shenxuan-1" />
-      </profile>
-      <profile name="Annotation profile for mircroservice-simple-provider-user" enabled="true">
-        <sourceOutputDir name="../mircroservice-simple-provider-user/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../mircroservice-simple-provider-user/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
         <module name="shenxuan-2" />
       </profile>
     </annotationProcessing>

@@ -11,13 +11,13 @@ spring:
           uri: https://github.com/shenxuan52142/iiiicloud
           username: shenxuan1hao@163.com
           password: 199351sx
-          force-pull: false
+          force-pull: true
           default-label: master
           search-paths: /eureka/**
 eureka:
   client:
     register-with-eureka: false
-    fetch-registry: false
+    fetch-registry: true
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 logging:
