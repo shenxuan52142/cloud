@@ -13,5 +13,5 @@ spring:
           password: 199351sx
           force-pull: true
           default-label: master
-          search-paths: /eurekasrc/main/resources/config
+          search-paths: /eurekasrc/main/resources/config/**
 
